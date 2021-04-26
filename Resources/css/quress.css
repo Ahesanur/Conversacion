@@ -1,0 +1,118 @@
+@media screen and (max-width:1200px){
+    .row{
+        width: 100%;
+        padding: 0 70px;
+    }
+    .close-btn ion-icon{
+        top: 16px;
+        right: 69px;
+    }
+    .manu-item{
+        top: 40%;
+    }
+    .hero-text-box{
+        width:100%
+    }
+}
+/*=============LARGE TABLET=================*/
+@media screen and (max-width:1024px){
+    .grid-about-content{
+        grid-template-columns: 1fr;
+        text-align: center;
+       
+    }
+    .paul{
+        width: 70%;
+          }
+}
+/*=============SMALL TABLET=================*/
+@media screen and (max-width:768px){
+    .grid-process-container,
+    .grid-portfolio-contener {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-portfolio-itmes:nth-child(5){
+        grid-column: 1/2;
+    }
+    .paul{
+        width: 85%;
+      
+    }
+    .grid-portfolio-itmes img{
+        height: auto;
+    }
+    .grid-portfolio-contener{
+        grid-auto-rows: auto;
+    }
+}    
+/*=============MOBILE SCREEN=================*/
+@media screen and (max-width:480px){
+    .grid-experience-contenar,
+    .grid-contact-contner {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    html,
+    body{
+        font-size: 8px;
+    }
+    .paul{
+        width: 100%;
+    }
+    #testimonial{
+        background-image: none;
+        background: rgba(245, 245, 245, 0.68)
+    }
+    .grid-testimonial-contener,
+    .grid-process-container,
+    .grid-portfolio-contener{
+        grid-template-columns: 1fr;
+    }
+}    
+@media screen and (max-width:360px){
+    #contact,
+    #experienc{
+        background-attachment: scroll;
+    }
+    .row{
+        padding: 0 30PX;
+    }
+    h1{
+        font-size: 550%;
+    }
+    .hero-text-box span{
+        font-size: 195%;
+    }
+} 
+    
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
